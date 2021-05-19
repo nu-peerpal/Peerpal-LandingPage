@@ -1,0 +1,68 @@
+body{
+    font-family: Roboto;
+
+}
+
+/* HEADERS -----------------------------------*/
+h1 {
+    color: #dbb3e9;
+}
+h2{
+    font-size: 75px;
+    margin: 0;
+    margin-bottom: 5%;
+}
+h4{
+    color: lightgray;
+}
+
+/* BUTTONS -----------------------------------*/
+
+button{
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button--secondary{
+    border: 1px solid #dbb3e9;
+    color: #dbb3e9;
+    background-color: transparent;
+}
+.button--primary{
+    border: none;
+    background-color: #dbb3e9;
+    color: white;
+}
+
+/* SECTIONS -----------------------------------*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.landing__section{
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.landing__image{
+    width: 80%;
+}
+
+.left{
+    margin-left: 10%;
+}
