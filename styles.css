@@ -114,6 +114,11 @@ button{
     font-size: 28px;
     font-weight: 500;
 }
+.teamMember__supervisor{
+    font-size: 28px;
+    font-weight: 500;
+    color: grey;
+}
 
 /* TECH STACK SECTION -----------------------------------*/
 .techstack{
