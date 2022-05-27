@@ -1,3 +1,4 @@
+.. _grader_interface:
 Grader Interface
 ================
 Peer Pal provides a grading matrix that allows the grader to view the submission and a matrix with both

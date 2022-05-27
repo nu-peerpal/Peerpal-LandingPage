@@ -6,7 +6,7 @@ and the guiding premises of each. The submission and review grading algorithms a
 requirements imposed by these algorithms will guide the design of the review matching algorithm.
 
 Submission Grading Algorithm  
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------
     **Parameters:** bonus  
 
     **Precondition:** each submission has a TA review or at least two peer reviews; each peer have given 

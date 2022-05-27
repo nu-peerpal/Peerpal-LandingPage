@@ -159,7 +159,9 @@
 <li class="toctree-l2"><a class="reference internal" href="setup.html">Setting up PeerPal on Canvas</a></li>
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Algorithms</a></li>
 <li class="toctree-l2"><a class="reference internal" href="grader_interface.html">Grader Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual_review_grading.html">Manual Review Grading</a></li>
 <li class="toctree-l2"><a class="reference internal" href="known_issues.html">Known Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="advice_for_graders.html">Advice for Graders</a></li>
 </ul>
 </li>
 </ul>
@@ -217,8 +219,9 @@ estimated submission grades, and then repeating with the new peer qualities. Whe
 that peer’s scores are not directly considered (i.e., that peer is left out of the previous calculation of
 submission grades). Without this detail, the algorithm can produce outcomes where a set of peers has very
 high quality and only their scores are taken into account in the submission grades.</p>
+</section>
 <section id="review-grading-algorithm">
-<h3>Review Grading Algorithm<a class="headerlink" href="#review-grading-algorithm" title="Permalink to this headline">#</a></h3>
+<h2>Review Grading Algorithm<a class="headerlink" href="#review-grading-algorithm" title="Permalink to this headline">#</a></h2>
 <blockquote>
 <div><p><strong>Parameters:</strong> minimum average review grade.</p>
 <p><strong>Precondition:</strong> each peer has at least one submission that was also reviewed by a TA.</p>
@@ -235,7 +238,7 @@ If the review assignment has a rubric enabled the TA can manually grade the peer
 automatic review grading algorithm is disabled.</p>
 </section>
 <section id="review-matching-algorithm">
-<h3>Review Matching Algorithm<a class="headerlink" href="#review-matching-algorithm" title="Permalink to this headline">#</a></h3>
+<h2>Review Matching Algorithm<a class="headerlink" href="#review-matching-algorithm" title="Permalink to this headline">#</a></h2>
 <blockquote>
 <div><p><strong>Parameters:</strong> peer load, total TA load.</p>
 <p><strong>Input:</strong> list of TAs, list of peers, list of student-submission pairs
@@ -258,7 +261,6 @@ to the remaining <em>m - l</em> submissions. Third and finally, the matching is 
 peer is assigned to review their own submission and no peer is assigned to review any submission multiple
 times. If this check fails, the matching is discarded and the algorithm restarts from scratch. If a matching
 is not found in a sufficient number of tries, the algorithm fails.</p>
-</section>
 </section>
 </section>
 
@@ -320,11 +322,9 @@ is not found in a sufficient number of tries, the algorithm fails.</p>
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Algorithms</a><ul>
-<li><a class="reference internal" href="#submission-grading-algorithm">Submission Grading Algorithm</a><ul>
+<li><a class="reference internal" href="#submission-grading-algorithm">Submission Grading Algorithm</a></li>
 <li><a class="reference internal" href="#review-grading-algorithm">Review Grading Algorithm</a></li>
 <li><a class="reference internal" href="#review-matching-algorithm">Review Matching Algorithm</a></li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
