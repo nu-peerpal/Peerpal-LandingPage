@@ -2,11 +2,11 @@
 <html class="no-js">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Setting up PeerPal on Canvas" href="setup.html" /><link rel="prev" title="Welcome to PeerPal’s documentation!" href="index.html" />
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="prev" title="Known Issues" href="known_issues.html" />
 
     <meta name="generator" content="sphinx-4.5.0, furo 2022.04.07"/>
-        <title>Instructors - PeerPal 0.1 documentation</title>
+        <title>Advice for Graders - PeerPal 0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
@@ -134,7 +134,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -155,13 +155,13 @@
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <ul class="current">
-<li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Instructors</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="instructors.html">Instructors</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="setup.html">Setting up PeerPal on Canvas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="algorithms.html">Algorithms</a></li>
 <li class="toctree-l2"><a class="reference internal" href="grader_interface.html">Grader Interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="manual_review_grading.html">Manual Review Grading</a></li>
 <li class="toctree-l2"><a class="reference internal" href="known_issues.html">Known Issues</a></li>
-<li class="toctree-l2"><a class="reference internal" href="advice_for_graders.html">Advice for Graders</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Advice for Graders</a></li>
 </ul>
 </li>
 </ul>
@@ -190,42 +190,85 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <section id="instructors">
-<h1>Instructors<a class="headerlink" href="#instructors" title="Permalink to this headline">#</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="setup.html">Setting up PeerPal on Canvas</a></li>
-<li class="toctree-l1"><a class="reference internal" href="algorithms.html">Algorithms</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="algorithms.html#submission-grading-algorithm">Submission Grading Algorithm</a></li>
-<li class="toctree-l2"><a class="reference internal" href="algorithms.html#review-grading-algorithm">Review Grading Algorithm</a></li>
-<li class="toctree-l2"><a class="reference internal" href="algorithms.html#review-matching-algorithm">Review Matching Algorithm</a></li>
+          <section id="advice-for-graders">
+<h1>Advice for Graders<a class="headerlink" href="#advice-for-graders" title="Permalink to this headline">#</a></h1>
+<p>Graders should very carefully follow the rubric guidelines for scoring. It is important to use the full
+scale. Typically this grading scheme is devised to create the biggest signal between students doing
+high-quality work and students doing low-quality work. It is important that the numbers significantly
+reflect the quality of work.</p>
+<p>If manual review grading is enabled, then review grading is especially important. Review grades are
+especially impactful on the first few assignments where students are learning how to to peer review. It
+must be the case that insufficient or low quality reviews get low grades. For the first assignments, it
+is also important to give very clear comments on what is wrong to the peer reviewers. Effort spent in on
+the first few assignments of giving the peers good feedback will translate to everything working more
+smoothly later in the course, when the peers are providing each other high quality reviews and grading
+tasks will be much easier. For a smooth grading experience, the following guidelines should be adhered to:</p>
+<ul class="simple">
+<li><p>Use a 10 point scale for all rubric elements.</p></li>
+<li><p>Design a rubric which uses most of the grading range. For example, on a 10 point scale, it is recommended that an 8 is a “solid submission” while 10 is reserved for the few submissions that are “truly excellent”.</p></li>
+<li><p>Give your graders clear instructions on the grading scale.</p></li>
+<li><p>Clearly communicate the grading range to the students.</p></li>
+<li><p>Give open ended assignments with a peer reviewing rubric that require critical thinking of the reviewer, rather than checking off items of a list of correct answers.</p></li>
+<li><p>Enable manual grading of peer reviews by creating the review assignment with a rubric.</p></li>
+<li><p>(For manual grading of peer reviews) Give the graders clear instructions on how to grade peer reviews. Specifically, scores should reward the appropriate amount of effort, and penalize insufficient effort. The grader should give written comments, especially on the first few assignments, to help the peer reviewers to provide more helpful and accurate reviews.</p></li>
+<li><p>Grading can be done very quickly and thus students can get feedback very quickly. It is best to have graders complete their grading the day after the peer reviews are due.</p></li>
+<li><p>The instructor (or a grader) will need to manually run the matching, check-augment-and-archive, and grading algorithms. This should be done very shortly after the appropriate deadlines.</p></li>
+<li><p>It is difficult to accept late submissions and also keep the fast turn-around of grades that is possible with peer grading, choose a late policy accordingly.</p></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="grader_interface.html">Grader Interface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="manual_review_grading.html">Manual Review Grading</a></li>
-<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="known_issues.html#peers-cannot-edit-reviews">Peers Cannot Edit Reviews</a></li>
-<li class="toctree-l2"><a class="reference internal" href="known_issues.html#non-submitting-students-cannot-find-review-assignment">Non-submitting Students Cannot Find Review Assignment</a></li>
-<li class="toctree-l2"><a class="reference internal" href="known_issues.html#issues-with-students-dropping-the-class">Issues with Students Dropping the Class</a></li>
-<li class="toctree-l2"><a class="reference internal" href="known_issues.html#changes-to-groups-causes-submissions-to-go-missing">Changes to Groups Causes Submissions to Go Missing</a></li>
+<section id="submission-and-review-reports">
+<h2>Submission and Review Reports<a class="headerlink" href="#submission-and-review-reports" title="Permalink to this headline">#</a></h2>
+<p>The feedback that the peers will see include the following (shown below):</p>
+<ul class="simple">
+<li><p>Their original peer review of the submission.</p></li>
+<li><p>The grader’s review of the submission.</p></li>
+<li><p>The grader’s review of the peer’s review (if manual review grading is enabled).</p></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="advice_for_graders.html">Advice for Graders</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="advice_for_graders.html#submission-and-review-reports">Submission and Review Reports</a></li>
-<li class="toctree-l2"><a class="reference internal" href="advice_for_graders.html#manual-scoring-of-peer-reviews">Manual Scoring of Peer Reviews</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="advice_for_graders.html#scoring-guidelines">Scoring Guidelines</a></li>
+<figure class="align-default" id="id1">
+<img alt="_images/advice_for_graders_1.png" src="_images/advice_for_graders_1.png"/>
+<figcaption>
+<p><span class="caption-text"><em>The review report with manual review grading. Mouse-over “[?]” opens written feedback
+on each rubric element. This particular review rubric has three components “Advice”,
+“Evaluation”, and “Score”.</em></span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>As noted above, the peer reviewers will be able to see your scores and comments on the submission.
+Thus, there is no need to duplicate, in your comments to a peer, the comments you made to the submitter.
+The feedback to the submitter of the submission includes the following:</p>
+<ul class="simple">
+<li><p>The reviews of all peers.</p></li>
+<li><p>The review of the grader (if there is one).</p></li>
 </ul>
-</li>
+<p>The submitter does not see the grader’s review of the peers’ reviews.</p>
+</section>
+<section id="manual-scoring-of-peer-reviews">
+<h2>Manual Scoring of Peer Reviews<a class="headerlink" href="#manual-scoring-of-peer-reviews" title="Permalink to this headline">#</a></h2>
+<p>One reason to manually score peer reviews is that sometimes the written feedback is on the right track,
+but there are multiple scores that could be reasonable. In this case, manual scoring allows the grader of
+the peer reviews to assign the right grade. Specifically, some submissions are very difficult to review
+and these reviews should be scored leniently. On the other hand, typical good quality submissions are
+pretty easy to review, and these grading tasks do not measure the graders ability very well. The following
+guidelines are recommended in the context of scoring on a 10 point scale.</p>
+<p>The scoring philosophy is that a good peer review should get 8 (of 10). An excellent review should get 10.
+A review that ok, but subpar, should get a 6. Per the above discussion of difficulty of review tasks
+varying from submission to submission, how to evaluate excellence or inferiority of a review depends on
+the submission.</p>
+<section id="scoring-guidelines">
+<h3>Scoring Guidelines<a class="headerlink" href="#scoring-guidelines" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p>Excellent submissions (e.g., 10s): Reviews that note excellence should get an 8. Go up if the review adds great feedback or discussion that matches the excellence of the submission.</p></li>
+<li><p>Pretty good submissions (e.g., 8s): Reviews that accurately score at 8ish without much discussion should get an 8. Go up if the review adds great feedback or discussion, especially with recommendations that would have made the submission excellent.</p></li>
+<li><p>Minor-issue submissions (e.g., 6s): Reviews that accurately point out the issues and score accordingly should get a 9. Go up if the review adds great feedback or discussion, especially with recommendations that would have made the submission better. Reviews that consider the submission good and do note observe that there are issues should be scored at 7 or below. Reviews that consider the submission to be excellent shoud be scored at 5 or below.</p></li>
+<li><p>Serious-issue submissions (e.g., 2-4s): Score at 8 for reviews that rightly observe the submission has issues. Score at 9 or 10 for concretely idenfied issues and suggestions. Reviews that score about 7 should be scored below 6, the higher the submission score, the lower the review score. These are peers that are not paying attention.</p></li>
+<li><p>Trivial submissions (e.g., 0s): Score at 8.</p></li>
 </ul>
-</li>
-</ul>
-</div>
+</section>
+</section>
 </section>
 
         </article>
@@ -233,23 +276,15 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="setup.html">
-              <div class="page-info">
-                <div class="context">
-                  <span>Next</span>
-                </div>
-                <div class="title">Setting up PeerPal on Canvas</div>
-              </div>
-              <svg><use href="#svg-arrow-right"></use></svg>
-            </a>
-          <a class="prev-page" href="index.html">
+          
+          <a class="prev-page" href="known_issues.html">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Home</div>
+                <div class="title">Known Issues</div>
                 
               </div>
             </a>
@@ -273,8 +308,31 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Advice for Graders</a><ul>
+<li><a class="reference internal" href="#submission-and-review-reports">Submission and Review Reports</a></li>
+<li><a class="reference internal" href="#manual-scoring-of-peer-reviews">Manual Scoring of Peer Reviews</a><ul>
+<li><a class="reference internal" href="#scoring-guidelines">Scoring Guidelines</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
