@@ -45,6 +45,7 @@ The feedback to the submitter of the submission includes the following:
 
 - The reviews of all peers.
 - The review of the grader (if there is one).
+
 The submitter does not see the grader’s review of the peers’ reviews.
 
 Manual Scoring of Peer Reviews
@@ -62,7 +63,7 @@ varying from submission to submission, how to evaluate excellence or inferiority
 the submission.
 
 Scoring Guidelines
-^^^^^^^^^^^^^^^^^^
+------------------
 - Excellent submissions (e.g., 10s): Reviews that note excellence should get an 8. Go up if the review adds great feedback or discussion that matches the excellence of the submission.
 - Pretty good submissions (e.g., 8s): Reviews that accurately score at 8ish without much discussion should get an 8. Go up if the review adds great feedback or discussion, especially with recommendations that would have made the submission excellent.
 - Minor-issue submissions (e.g., 6s): Reviews that accurately point out the issues and score accordingly should get a 9. Go up if the review adds great feedback or discussion, especially with recommendations that would have made the submission better. Reviews that consider the submission good and do note observe that there are issues should be scored at 7 or below. Reviews that consider the submission to be excellent shoud be scored at 5 or below.

@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Advice for Graders" href="advice_for_graders.html" /><link rel="prev" title="Manual Review Grading" href="manual_review_grading.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="prev" title="Students" href="students.html" />
 
     <meta name="generator" content="sphinx-4.5.0, furo 2022.04.07"/>
-        <title>Known Issues - PeerPal 0.1 documentation</title>
+        <title>PeerPal App Walkthrough (Students) - PeerPal 0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
@@ -155,13 +155,17 @@
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <ul class="current">
-<li class="toctree-l1 current has-children"><a class="reference internal" href="instructors.html">Instructors</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="instructors.html">Instructors</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="setup.html">Setting up PeerPal on Canvas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="algorithms.html">Algorithms</a></li>
 <li class="toctree-l2"><a class="reference internal" href="grader_interface.html">Grader Interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="manual_review_grading.html">Manual Review Grading</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Known Issues</a></li>
 <li class="toctree-l2"><a class="reference internal" href="advice_for_graders.html">Advice for Graders</a></li>
+<li class="toctree-l2"><a class="reference internal" href="instructor_app_walkthrough.html">PeerPal App Walkthrough (Instructors)</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="students.html">Students</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">PeerPal App Walkthrough (Students)</a></li>
 </ul>
 </li>
 </ul>
@@ -196,48 +200,27 @@
           </label>
         </div>
         <article role="main">
-          <section id="known-issues">
-<h1>Known Issues<a class="headerlink" href="#known-issues" title="Permalink to this headline">#</a></h1>
-<p>There are a number of known problems with Canvas that cannot be fixed. Here are some common problems and
-their workarounds:</p>
-<section id="peers-cannot-edit-reviews">
-<h2>Peers Cannot Edit Reviews<a class="headerlink" href="#peers-cannot-edit-reviews" title="Permalink to this headline">#</a></h2>
-<p>The Canvas UI does not allow peers to edit their reviews after being submitted. This restriction is
-deliberate and misguided, but Canvas is emphatic about this policy. Eventually, we will build our own
-UI for peers to enter reviews. Until then, there is an awkward workaround. If a student needs to fix an
-errant review, you can reset their review as follows:</p>
-<ol class="arabic simple">
-<li><p>From the assignment page, click “peer reviews”.</p></li>
-<li><p>Find the student whose peer review is in question.</p></li>
-</ol>
-<p>3. Shift click on each of their assigned peer reviews (this action opens up each submission in a new
-window).</p>
-<p>4. Identify the submitter of one that is to be reset (you will need to click “show rubric” on the
-right-hand side).</p>
-<p>5. From the peer review page, you can mouse-over the assigned peer review to reveal a button for
-deleting it.</p>
-<ol class="arabic simple" start="6">
-<li><p>You can then reassign the exact same review (for the same submitter).</p></li>
-</ol>
+          <section id="peerpal-app-walkthrough-students">
+<h1>PeerPal App Walkthrough (Students)<a class="headerlink" href="#peerpal-app-walkthrough-students" title="Permalink to this headline">#</a></h1>
+<p>All three sections below are on the Home page viewable by students. Each assignment in each section is clickable for more details.</p>
+<section id="home">
+<h2>Home<a class="headerlink" href="#home" title="Permalink to this headline">#</a></h2>
+<p>The homepage is the first page seen by the student after launching Peerpal.
+.. image:: _static/student_homepage.png</p>
 </section>
-<section id="non-submitting-students-cannot-find-review-assignment">
-<h2>Non-submitting Students Cannot Find Review Assignment<a class="headerlink" href="#non-submitting-students-cannot-find-review-assignment" title="Permalink to this headline">#</a></h2>
-<p>Canvas has decided that students who have not submitted should have a hard time submitting peer reviews.
-For such students, peer reviews do not appear on the assignment page where they usually appear. Instead,
-the students can find their peer reviews in the Activity Stream.</p>
+<section id="submissions-to-review">
+<h2>Submissions to Review<a class="headerlink" href="#submissions-to-review" title="Permalink to this headline">#</a></h2>
+<p>Under the assignment name, the next task to be done by the student will be listed below in grey. When peer reviews are assigned, the student can click on an assignment and will have a list of peer reviews to complete.
+Otherwise, the page the student will see when there are no peer reviews is shown below.</p>
+<figure class="align-default">
+<img alt="_static/student_reviews.png" src="_static/student_reviews.png"/>
+</figure>
 </section>
-<section id="issues-with-students-dropping-the-class">
-<h2>Issues with Students Dropping the Class<a class="headerlink" href="#issues-with-students-dropping-the-class" title="Permalink to this headline">#</a></h2>
-<p>When students drop the class their submissions disappear in Canvas. Review assignments of these
-submissions also silently disappear. There is no current workaround for this issue.</p>
+<section id="graded-reviews">
+<h2>Graded Reviews<a class="headerlink" href="#graded-reviews" title="Permalink to this headline">#</a></h2>
 </section>
-<section id="changes-to-groups-causes-submissions-to-go-missing">
-<h2>Changes to Groups Causes Submissions to Go Missing<a class="headerlink" href="#changes-to-groups-causes-submissions-to-go-missing" title="Permalink to this headline">#</a></h2>
-<p>Submissions can go missing if students change groups after submission. Canvas claims that this is the
-intended behavior. Canvas recommends freezing groups after the submission deadline. If you wish to allow
-students to change groups in between assignments, you should use a new group set for each assignment. If
-most students are to remain in their original groups, an effective way to do this is by clone the group
-set after each assignment and using the cloned group set for the next assignment.</p>
+<section id="graded-submissions">
+<h2>Graded Submissions<a class="headerlink" href="#graded-submissions" title="Permalink to this headline">#</a></h2>
 </section>
 </section>
 
@@ -246,23 +229,15 @@ set after each assignment and using the cloned group set for the next assignment
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="advice_for_graders.html">
-              <div class="page-info">
-                <div class="context">
-                  <span>Next</span>
-                </div>
-                <div class="title">Advice for Graders</div>
-              </div>
-              <svg><use href="#svg-arrow-right"></use></svg>
-            </a>
-          <a class="prev-page" href="manual_review_grading.html">
+          
+          <a class="prev-page" href="students.html">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Manual Review Grading</div>
+                <div class="title">Students</div>
                 
               </div>
             </a>
@@ -298,11 +273,11 @@ set after each assignment and using the cloned group set for the next assignment
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">Known Issues</a><ul>
-<li><a class="reference internal" href="#peers-cannot-edit-reviews">Peers Cannot Edit Reviews</a></li>
-<li><a class="reference internal" href="#non-submitting-students-cannot-find-review-assignment">Non-submitting Students Cannot Find Review Assignment</a></li>
-<li><a class="reference internal" href="#issues-with-students-dropping-the-class">Issues with Students Dropping the Class</a></li>
-<li><a class="reference internal" href="#changes-to-groups-causes-submissions-to-go-missing">Changes to Groups Causes Submissions to Go Missing</a></li>
+<li><a class="reference internal" href="#">PeerPal App Walkthrough (Students)</a><ul>
+<li><a class="reference internal" href="#home">Home</a></li>
+<li><a class="reference internal" href="#submissions-to-review">Submissions to Review</a></li>
+<li><a class="reference internal" href="#graded-reviews">Graded Reviews</a></li>
+<li><a class="reference internal" href="#graded-submissions">Graded Submissions</a></li>
 </ul>
 </li>
 </ul>

@@ -8,11 +8,4 @@ Welcome to PeerPal's documentation!
 
 .. toctree::
    instructors
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
+   students

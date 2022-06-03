@@ -1,0 +1,55 @@
+PeerPal App Walkthrough (Instructors)
+=====================================
+
+Instructor Homepage
+-------------------
+The homepage is the first page seen by the instructor after launching the PeerPal application from Canvas.
+
+.. image:: _static/instructor_app_walkthrough_1.png
+.. image:: _static/instructor_app_walkthrough_2.png
+
+1. **Nav Bar**: The Nav Bar consists of clickable links to other pages in the PeerPal application (explained
+below).
+
+2. **Enabled Assignments**: The Enabled Assignments section displays all assignments from Canvas which 
+have been configured for peer grading in PeerPal. Each assignment can be clicked to display assignment 
+checklists.
+
+3. **Completed Assignments**: This section displays all assignments in which the peer grading process has
+been completed. Each assignment can be clicked to display assignment checklists.
+
+4. **Enablable Assignments**: This section displays all assignments in Canvas which haven't been (but can 
+be) enabled for peer grading.
+
+In Progress Assignments
+-----------------------
+.. image:: _static/instructor_app_walkthrough_3.png
+
+The "In Progress Assignments" page is accessible from the Nav Bar. Similar to the **Enabled Assignments**
+section on the homepage, it displays assignments which have been configured for peer grading in PeerPal.
+
+Completed Assignments
+---------------------
+.. image:: _static/instructor_app_walkthrough_4.png
+
+The "Completed Assignments" page is accessible from the Nav Bar. Similar to the **Completed Assignments**
+section on the homepage, it displays assignments in which the Peer Grading process has been completed.
+
+Assignment Checklist
+------------------------
+Assignment checklists are viewable after clicking on any assignment listed in the sections/pages described 
+above.
+
+.. image:: _static/instructor_app_walkthrough_5.png
+
+The assignment checklist serves as a method of tracking the progress of peer grading assignments as well 
+as addressing any action items needed to continue the peer grading process.
+
+Initialize Peer Review Assignment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The "Initialize Peer Review Assignment" page is the first item in the peer grading process which sets up 
+the peer grading assignment.
+
+.. image:: _static/instructor_app_walkthrough_6.png
+
+    
