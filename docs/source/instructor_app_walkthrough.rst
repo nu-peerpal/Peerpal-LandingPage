@@ -6,6 +6,7 @@ Instructor Homepage
 The homepage is the first page seen by the instructor after launching the PeerPal application from Canvas.
 
 .. image:: _static/instructor_app_walkthrough_1.png
+
 .. image:: _static/instructor_app_walkthrough_2.png
 
 1. **Nav Bar**: The Nav Bar consists of clickable links to other pages in the PeerPal application (explained
@@ -60,4 +61,20 @@ The original assignment date is pulled from Canvas and displayed as well.0s
 
 3. **Rubric settings**: This section allows users to select the rubric to use during peer reviewing.0s
 
-4. 
+4. **Create assignment button**: This button creates the peer review assignment with all of the course 
+settings defined on this page.
+
+Peer Matching
+^^^^^^^^^^^^^
+.. image:: _static/instructor_app_walkthrough_7.png
+
+The "Peer Matching" page allows instructors to select the "Peer Load", "Grader Load", and "Graders" to use
+when running the Review Matching Algorithm. See the Algorithms section for more info on these settings.
+
+Additonal Matches
+^^^^^^^^^^^^^^^^^
+.. image:: _static/instructor_app_walkthrough_8.png
+
+This page displays students who haven't completed their peer reviews. Instructors can create additional 
+matchings by manually assigning unfinished peer reviews to TAs. Once additional matchings have been 
+completed, instructors click the "CONFIRM NO NEW MATCHINGS NEEDED" button.

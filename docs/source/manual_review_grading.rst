@@ -1,5 +1,5 @@
 Manual Review Grading
-===========
+=====================
 
 It is recommended to use manual review grading. The advantage of manual review grading is that the
 grader can accurately grade the textual feedback in the reviews. In typical use cases, the most timely part
