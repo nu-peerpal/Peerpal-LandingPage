@@ -30,6 +30,4 @@ The third section is the TA's score and comments and shows the TA's grading of t
 
 Graded Submissions
 ------------------
-
-
-Students can view their 
+Students can view their graded submissions 
