@@ -1,8 +1,66 @@
 body{
     font-family: Roboto;
+    max-width: 100%;
+    margin: 0px !important;
 }
 
+p {
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+}
+
+li {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+}
+
+
 /* UTILITY CLASSES -----------------------------------*/
+
+.WeAre{
+    justify-content: center;
+    font-family: 'Nunito Sans';
+    margin-top: 10%;
+    text-align: center;
+    width: 45%;
+    margin-left: 27%;
+    margin-bottom: 10%;
+}
+
+.logo {
+    font-family: 'Roboto';
+}
+
+.logo_rectangle {
+    height: 90px;
+    width: 330px;
+    border-radius: 10px;
+    background-color: #dbb3e9;
+    font-family: 'Roboto';
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: bolder;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.center__text{
+    justify-content: center;
+    
+    text-align: center;
+    width: 70%;
+    margin-left: 14%;
+    margin-bottom: 5%;
+}
+
+.top__spacing {
+    margin-top: 5%;
+    font-size: 22px;
+}
 
 .flexCenter{
     display: flex;
@@ -10,6 +68,42 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+/* NAVBAR--------------------------------------- */
+.nunito_sans {
+    font-family: 'Nunito Sans';
+}
+
+  navli {
+    float: left;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+  
+  navli a {
+    display: block;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  navli a:hover {
+    color: rgb(78, 042, 132);
+    transition: 0.4s;
+  }
+
+  navli a:focus {
+    color: rgb(78, 042, 132);
+  }
+
 
 /* HEADERS -----------------------------------*/
 h1 {
@@ -26,12 +120,23 @@ h3{
     font-weight: 500;
 }
 h4{
-    margin: 0;
+    margin-bottom: 10px;
     color: lightgray;
+    font-size: 24px;
 }
 h5{
     margin: 0;
-    font-size: 20px;
+    font-size: 26px;
+}
+h6{
+    margin: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+h7{
+    font-size: 75px;
+    font-weight: bolder;
 }
 
 /* BUTTONS -----------------------------------*/
@@ -44,11 +149,26 @@ button{
     border-radius: 5px;
 }
 
+button:hover {
+    background-color: rgb(78, 042, 132);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button--about{
+    border: none;
+    background-color: #dbb3e9;
+    color: white;
+    margin-top: 5%;
+}
+
 .button--secondary{
     border: 1px solid #dbb3e9;
     color: #dbb3e9;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255);
 }
+
 .button--primary{
     border: none;
     background-color: #dbb3e9;
@@ -61,8 +181,49 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10%;
+    background: rgba(146, 25, 188, 0.34);
+    width: 100%;
+    height: 100px;
+    margin-left: -10px;
+    padding-right: 10px;
+    /* margin-top: -10px; */
+    margin-bottom: 5%;
+    
 }
+
+.header__name{  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 80px;
+    margin-left: 50px;
+    color: white;   
+    justify-content: space-between;     
+}
+
+.header__button {
+    float: right;
+    margin-right: 80px;
+    border: 1px solid #dbb3e9;
+    color: #dbb3e9;
+    background-color: rgba(255, 255, 255);
+};
+
+.header__links {
+    align-items: center;
+    display: inline;
+}
+
+.header__top{
+    position: absolute;
+    height: 65px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(146, 25, 188, 0.34);
+    display: flex;
+    align-items: center;
+    }
 
 .landing__section, .sidePicture__section{
     height: 85vh;
@@ -70,15 +231,44 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .landing, .sidePicture{
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 3%;
 }
 
 .landing__image{
     width: 80%;
+}
+
+.split {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "leftside rightside";
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftside {
+    grid-area: leftside;
+    left: 0;
+    padding-top: 1%;
+    float: left;
+    /* background-color: rgb(25, 97, 159); */
+}
+
+.rightside {
+    right: 0;
+    grid-area: rightside;
+    float: right;
+    /* background-color: aqua; */
+    text-align: left;
 }
 
 .left{
@@ -86,43 +276,86 @@ button{
 }
 
 /* ABOUT TEAM SECTION -----------------------------------*/
-.team{
+.workflow-image {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+.team, .workflow{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15% 0;
+    margin: 4% 0;
 }
 .teamContainer{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content:space-evenly;
+    justify-content:center;
 }
 .teamMember{
-    align-items: flex-start !important;
-    height: 250px;
-    width: 250px;
+    align-items: center !important;
+    height: 330px;
+    width: 275px;
     border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
     -webkit-box-shadow: 0px 0px 38px 3px rgba(184,184,184,1);
     -moz-box-shadow: 0px 0px 38px 3px rgba(184,184,184,1);
     box-shadow: 0px 0px 38px 3px rgba(184,184,184,1);
 }
 
-.teamMember__name{
-    font-size: 28px;
-    font-weight: 500;
+.teamMember__name, .benefit_description{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 .teamMember__supervisor{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
     color: grey;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.teamMember__description{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.teamMember__profilepic{
+        width: 200px;
+        justify-content: center;
+        height: 200px;
+        border-radius: 50%;
+        
 }
 
 /* TECH STACK SECTION -----------------------------------*/
+.pink-background {
+    /* background: rgba(146, 25, 188, 0.34); */
+    background: #dbb3e9;
+    width: 100%;
+    margin-left: -10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+
 .techstack{
-    margin: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 .techStackDescription{
@@ -140,17 +373,48 @@ button{
 
 .section__description{
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .techStackImages{
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
 }
 .techStackImage{
     height: 80px;
 }
 
+.companies__bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(90, 90, 90, 0.2);
+    width: 100%;
+    height: 120px;
+  
+}
+
+.accentureLogoImage{
+    height: 65px;
+    margin-top: 0px;
+}
+
+.amazonLogoImage{
+    height: 60px;
+    margin-top: 25px;
+}
+.deloitteLogoImage{
+    height: 50px;
+    margin-top: 20px;
+    margin-right: -20px;
+}
+
+.expediaLogoImage{
+    height: 75px;
+    margin-top: 10px;
+}
 
 /* .sidePicture__section{
     width: 40%;
@@ -159,7 +423,20 @@ button{
     margin-left: 10%;
     margin-right: 2%;
     width: 40%;
+    
 }
 .sidePictureImage{
     max-width: 90%;
+    margin-top: 5%;
+}
+
+/* BAR FOR IMAGES*/
+.imagebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: -8px;
+    margin-right: -8px;
 }
